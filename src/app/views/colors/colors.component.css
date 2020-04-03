@@ -1,0 +1,31 @@
+.my-pagination{
+    width: 100%;
+}
+.my-pagination /deep/ .ngx-pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.my-pagination /deep/ .ngx-pagination .current {
+    border: 1px solid #E2583E;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.my-pagination /deep/ .ngx-pagination a, .my-pagination /deep/ .ngx-pagination button {
+    color: #333;
+}
+
+.my-pagination /deep/ .ngx-pagination a:hover, .my-pagination /deep/ .ngx-pagination button:hover {
+    background-color: #E2583E;
+    color: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}

@@ -1,0 +1,21 @@
+<button class="color-link" ngxClipboard [cbContent]="color" data-toggle="modal" data-target="#exampleModal">
+    <div class="box-color" >
+        <div class="color-swatch" [ngStyle]="{'background-color': color}"></div>
+        <section class="p-2">
+            <header class="text-left">
+                <p>{{year}}</p>
+            </header>
+            <article class="text-center">
+                <h3>{{name}}</h3>
+                <p>{{color}}</p>
+            </article>
+            <footer class="text-right">
+                <p>{{pantone}}</p>
+            </footer>
+        </section>
+    </div>
+</button>
+
+
+
+  

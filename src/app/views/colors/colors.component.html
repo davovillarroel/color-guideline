@@ -1,0 +1,37 @@
+<section class="py-4">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-12 text-center"><h1>Colors</h1></div>
+            
+        </div>
+    </div>
+    <div class="container-lg" >
+
+        <div class="row" >
+            <div class="col-6 col-sm-4 my-2" *ngFor="let color of colorService.info | paginate: { itemsPerPage: 6, currentPage: actualPage}">
+                <app-color [(year)]="color.year" [(name)]="color.name" [(color)]="color.color" [(pantone)]="color.pantone_value"></app-color>
+            </div>
+
+            <pagination-controls class="my-pagination" (pageChange)="actualPage = $event"></pagination-controls>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><span class="icon-ui-theme mr-2"></span>!A pintar el diseño!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <p>El hexadecimal fue copiado correctamente</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
