@@ -22,6 +22,7 @@
     "@angular/router": "~9.1.0",
     "@ng-bootstrap/ng-bootstrap": "^6.0.2",
     "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
     "jquery": "^3.4.1",
     "ngex": "^1.0.5",
     "ngx-clipboard": "^13.0.0",
