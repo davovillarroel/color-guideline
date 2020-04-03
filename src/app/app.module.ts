@@ -10,7 +10,6 @@ import { HomeComponent } from './views/Home/home.component';
 import { ColorComponent } from './components/color/color.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { NavComponent } from './components/nav/nav.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import { NgxPaginationModule } from 'ngx-pagination';
@@ -23,7 +22,6 @@ import { ClipboardModule } from 'ngx-clipboard';
     ColorsComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent,
     ColorComponent
   ],
   imports: [

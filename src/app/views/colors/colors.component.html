@@ -1,14 +1,21 @@
 <section class="py-4">
     <div class="container-lg">
         <div class="row">
-            <div class="col-12 text-center"><h1>Colors</h1></div>
+            <div class="col-12 text-center">
+                <h1>Colors</h1>
+                <p class="w-100 my-3 text-center">
+                    Por favor si necesitas usar un hexadecimal, has click sobre el pantone que necesites y se copiará automaticamente a tu portapapeles.
+                </p>
+            </div>
+
+            
             
         </div>
     </div>
-    <div class="container-lg" >
+    <div class="container-lg">
 
         <div class="row" >
-            <div class="col-6 col-sm-4 my-2" *ngFor="let color of colorService.info | paginate: { itemsPerPage: 6, currentPage: actualPage}">
+            <div class="col-6 col-md-4 my-2" *ngFor="let color of colorService.info | paginate: { itemsPerPage: 6, currentPage: actualPage}">
                 <app-color [(year)]="color.year" [(name)]="color.name" [(color)]="color.color" [(pantone)]="color.pantone_value"></app-color>
             </div>
 

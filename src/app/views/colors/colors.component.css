@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    padding: 0;
 }
 .my-pagination /deep/ .ngx-pagination .current {
     border: 1px solid #E2583E;

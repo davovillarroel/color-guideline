@@ -1,7 +1,13 @@
 button:focus {
   outline: none !important;
 }
-
+svg#clouds {
+  position: fixed;
+  bottom: -160px;
+  left: -230px;
+  z-index: -10;
+  width: 1920px;
+}
 @font-face {
     font-family: 'icomoon';
     src:  url('fonts/icomoon.eot?vsaifn');
