@@ -5,7 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ColorsComponent } from './views/colors/colors.component';
-import { HomeComponent } from './views/Home/home.component';
+import { HomeComponent } from './views/home/home.component';
 
 import { ColorComponent } from './components/color/color.component';
 import { HeaderComponent } from './components/header/header.component';
